@@ -1,0 +1,24 @@
+nav{
+    display: flex;
+    @include center;
+
+    h2{
+        font-weight: 700;
+    }
+
+    ul{
+        @include center;
+        width: 50%;
+        
+        li{
+          transition: 0.2s;
+            &:hover{
+                transform: scale(1.2);
+                border-bottom: 3px solid $blue;
+            }
+        }
+    }
+    h2, ul{
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,23 @@
+.header{
+    @include center;
+    height: 91.5vh;
+    
+    .header-left{
+
+        h1{
+            font-size: 4.5rem;
+        }
+
+        h3{
+            color: $blue;
+            font-size: 1.6rem;
+        }
+    }
+    
+    .header-right{
+
+        img{
+            width: 650px;
+        }
+    }
+}
